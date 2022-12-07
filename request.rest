@@ -1,0 +1,28 @@
+GET http://localhost:3000/api/users
+
+
+###
+GET http://localhost:3000/api/users/63830ec359dd4d14dda42c54
+
+###
+POST http://localhost:3000/api/users/
+Content-Type: application/json
+
+{
+  "name" : "Steve",
+  "email" : "steve.jeong@gmail.com"
+}
+
+###
+GET http://localhost:3000/test
+
+###
+GET http://localhost:3000/api/cars
+
+###
+POST http://localhost:3000/api/cars/
+Content-Type: application/json
+
+{
+  "name" : "지하3층"
+}
